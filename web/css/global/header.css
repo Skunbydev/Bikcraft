@@ -1,7 +1,6 @@
 .header-bg {
     background-color: var(--cor-12);
 }
-
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +39,7 @@
     transition: 0.3s;
     position: absolute;
 }
+
 .header-menu a:hover:after {
     width: 100%;
 }
