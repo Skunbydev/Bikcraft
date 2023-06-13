@@ -19,3 +19,27 @@
     padding-top: 180px;
     padding-bottom: 180px;
 }
+
+.seguro h2 {
+    margin-bottom: 32px;
+}
+
+.seguro p {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .seguro-bg {
+        box-shadow: insec 0 -60px var(--cor-12);
+    }
+    .seguro {
+      grid-template-columns: 1fr;  
+    }
+    .seguro-conteudo {
+        grid-row: 1;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    
+}
